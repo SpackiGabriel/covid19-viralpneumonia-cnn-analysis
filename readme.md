@@ -1,5 +1,7 @@
 # Projeto Final do Bootcamp do LAMIA
 
+## [English Version](README_EN.md)
+
 ## LAMIA
 
 O LAMIA, situado no campus da UTFPR em Santa Helena, é um centro de pesquisa dedicado à aplicação de Ciência de Dados e Visão Computacional na indústria. Ele desenvolve tecnologia e conhecimento acadêmico para o setor, contando com uma equipe de colaboradores espalhados por todo o país.
