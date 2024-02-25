@@ -1,6 +1,6 @@
 # Projeto Final do Bootcamp do LAMIA
 
-## [English Version](README_EN.md)
+## [English Version](readme_en.md)
 
 ## LAMIA
 
