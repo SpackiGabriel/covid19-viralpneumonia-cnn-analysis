@@ -25,6 +25,8 @@ Os modelos escolhidos foram:
 
 Todos disponíves para utilização na biblioteca tensorflow.
 
+Além dos modelos mencionados, também foi realizado testes em um modelo próprio. O mesmo encontra-se disponível no arquivo `my-model.ipynb`.
+
 ## Base de dados
 
 A realização do treinamento e validação dos modelos teve como base uma mescla dos seguintes datasets:
