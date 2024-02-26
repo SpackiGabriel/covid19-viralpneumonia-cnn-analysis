@@ -42,8 +42,6 @@ Resultando em `9423` imagens para o treinamento e `2353` imagens para a validaç
 
 # Resultados
 
-Estou contente em informar que consegui resultados consistentes. 
-Para uma melhor consistência entre as comparações, analisar apenas a precisão e e perda dos modelos não seria suficiente.
-Por isso, resultados detalhados então disponibilizados no arquivo `testing-models.ipynb`. No mesmo, é possível analisar a precisão de cada modelo em cada caso. 
+Estou satisfeito em compartilhar que obtive resultados consistentes. No entanto, para uma análise mais abrangente das comparações, simplesmente observar a precisão e o número de perda dos modelos não seria suficiente. Por isso, forneci resultados detalhados no arquivo `testing-models.ipynb`. Neste documento, é possível examinar as métricas de desempenho de cada modelo no conjunto de dados de teste. Vale ressaltar que o conjunto de dados de teste foi compilado com imagens reais obtidas do Google Imagens e de vários sites de medicina. Além disso, para uma análise das métricas de desempenho de cada modelo no conjunto de dados de validação, os gráficos correspondentes podem ser encontrados nos arquivos de cada modelo respectivo.
 
 Esses resultados estabelecem um fundamento promissor para futuros aprimoramentos e aplicações. Portanto, pretendo continuar desenvolvendo minhas competências em Aprendizado de Máquina no LAMIA.

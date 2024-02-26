@@ -42,8 +42,6 @@ Resulting in 9423 images for training and 2353 images for validation.
 
 # Results
 
-I am pleased to inform that I achieved consistent results.
-For better consistency among comparisons, analyzing only the accuracy and loss of the models would not be sufficient.
-Therefore, detailed results are available in the testing-models.ipynb file. In it, it is possible to analyze the accuracy of each model in each case.
+I am pleased to inform you that I have achieved consistent results. However, for a better analysis among the comparisons, simply observing the accuracy and loss numbers of the models would not be sufficient. That's why detailed results have been provided in the testing-models.ipynb file. In it, you can analyze the metrics of each model on the test set. (Note: the test set was compiled with real images available on Google Images and various medical websites.) For an analysis of the metrics of each model on the validation dataset, you can find the graphs in the respective model's file.
 
 These results establish a promising foundation for future enhancements and applications. Therefore, I intend to continue developing my skills in Machine Learning at LAMIA.
