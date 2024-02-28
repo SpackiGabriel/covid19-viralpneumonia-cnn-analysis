@@ -47,6 +47,8 @@ In addition to the mentioned models, tests were also conducted on a custom model
 
 # Results
 
+## [Results](results_en.md)
+
 I am pleased to inform you that I have achieved consistent results. However, for a better analysis among the comparisons, simply observing the accuracy and loss numbers of the models would not be sufficient. That's why detailed results have been provided in the `testing-real-world-data.ipynb` file. In it, you can analyze the metrics of each model on the test set. (Note: the test set was compiled with real images available on Google Images and various medical websites.) For an analysis of the metrics of each model on the validation dataset, you can find the graphs in the respective model's file.
 
 These results establish a promising foundation for future enhancements and applications. Therefore, I intend to continue developing my skills in Machine Learning at LAMIA.
