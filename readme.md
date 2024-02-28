@@ -40,10 +40,13 @@ A realização do treinamento e validação dos modelos teve como base uma mescl
 - Chest X-Ray Images (Pneumonia) with new class. 
     - Disponível em: https://www.kaggle.com/datasets/ahmedhaytham/chest-xray-images-pneumonia-with-new-clas
 
-Resultando em `9423` imagens para o treinamento e `2353` imagens para a validação. 
+- Chest X-ray Image(COVID19, PNEUMONIA, and NORMAL):
+    - Disponível em: https://www.kaggle.com/datasets/alsaniipe/chest-x-ray-image
+
+Resultando em `17208` imagens para o treinamento e `1000` imagens para a validação. 
 
 # Resultados
 
-Estou satisfeito em compartilhar que obtive resultados consistentes. No entanto, para uma análise mais abrangente das comparações, simplesmente observar a precisão e o número de perda dos modelos não seria suficiente. Por isso, forneci resultados detalhados no arquivo `testing-models.ipynb`. Neste documento, é possível examinar as métricas de desempenho de cada modelo no conjunto de dados de teste. Vale ressaltar que o conjunto de dados de teste foi compilado com imagens reais obtidas do Google Imagens e de vários sites de medicina. Além disso, para uma análise das métricas de desempenho de cada modelo no conjunto de dados de validação, os gráficos correspondentes podem ser encontrados nos arquivos de cada modelo respectivo.
+Estou satisfeito em compartilhar que obtive resultados consistentes. No entanto, para uma análise mais abrangente das comparações, simplesmente observar a precisão e o número de perda dos modelos não seria suficiente. Por isso, forneci resultados detalhados no arquivo `testing-real-world-data.ipynb`. Neste documento, é possível examinar as métricas de desempenho de cada modelo no conjunto de dados de teste. Vale ressaltar que o conjunto de dados de teste foi compilado com imagens reais obtidas do Google Imagens e de vários sites de medicina. Além disso, para uma análise das métricas de desempenho de cada modelo no conjunto de dados de validação, os gráficos correspondentes podem ser encontrados nos arquivos de cada modelo respectivo.
 
 Esses resultados estabelecem um fundamento promissor para futuros aprimoramentos e aplicações. Portanto, pretendo continuar desenvolvendo minhas competências em Aprendizado de Máquina no LAMIA.

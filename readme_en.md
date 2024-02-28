@@ -38,12 +38,15 @@ The training and validation of the models were based on a merge of the following
 - Chest X-Ray Images (Pneumonia) with new class.
     - Available at: https://www.kaggle.com/datasets/ahmedhaytham/chest-xray-images-pneumonia-with-new-clas
 
-Resulting in 9423 images for training and 2353 images for validation.
+- Chest X-ray Image(COVID19, PNEUMONIA, and NORMAL):
+    - Available at: https://www.kaggle.com/datasets/alsaniipe/chest-x-ray-image
+
+Resulting in `17208` images for training and `1000` images for validation.
 
 In addition to the mentioned models, tests were also conducted on a custom model. It is available in the file `my-model.ipynb`.
 
 # Results
 
-I am pleased to inform you that I have achieved consistent results. However, for a better analysis among the comparisons, simply observing the accuracy and loss numbers of the models would not be sufficient. That's why detailed results have been provided in the testing-models.ipynb file. In it, you can analyze the metrics of each model on the test set. (Note: the test set was compiled with real images available on Google Images and various medical websites.) For an analysis of the metrics of each model on the validation dataset, you can find the graphs in the respective model's file.
+I am pleased to inform you that I have achieved consistent results. However, for a better analysis among the comparisons, simply observing the accuracy and loss numbers of the models would not be sufficient. That's why detailed results have been provided in the `testing-real-world-data.ipynb` file. In it, you can analyze the metrics of each model on the test set. (Note: the test set was compiled with real images available on Google Images and various medical websites.) For an analysis of the metrics of each model on the validation dataset, you can find the graphs in the respective model's file.
 
 These results establish a promising foundation for future enhancements and applications. Therefore, I intend to continue developing my skills in Machine Learning at LAMIA.
