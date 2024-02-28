@@ -47,7 +47,7 @@ Resultando em `17208` imagens para o treinamento e `1000` imagens para a valida�
 
 # Resultados
 
-## [Resultados](results.md)
+## [Discussão](results.md)
 
 Estou satisfeito em compartilhar que obtive resultados consistentes. No entanto, para uma análise mais abrangente das comparações, simplesmente observar a precisão e o número de perda dos modelos não seria suficiente. Por isso, forneci resultados detalhados no arquivo `testing-real-world-data.ipynb`. Neste documento, é possível examinar as métricas de desempenho de cada modelo no conjunto de dados de teste. Vale ressaltar que o conjunto de dados de teste foi compilado com imagens reais obtidas do Google Imagens e de vários sites de medicina. Além disso, para uma análise das métricas de desempenho de cada modelo no conjunto de dados de validação, os gráficos correspondentes podem ser encontrados nos arquivos de cada modelo respectivo.
 
