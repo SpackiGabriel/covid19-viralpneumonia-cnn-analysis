@@ -1,20 +1,33 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-import platform
-import os
 
 from sklearn.metrics import confusion_matrix, recall_score, f1_score
 
 
-def clear_console():
+def plot_images_and_classes(true_classes, predicted_classes, dataset):
     """
-    Clears the console/terminal.
+    Plots images and their corresponding true and predicted classes.
+
+    Args:
+        true_classes (list): List of true classes.
+        predicted_classes (list): List of predicted classes.
+        dataset (tf.data.Dataset): Dataset containing the images.
 
     Returns:
-    None
-    """
-    os.system('cls' if platform.system() == 'Windows' else 'clear')
+        None
+    """ 
+    images, labels = next(iter(dataset))
+
+    plt.figure(figsize=(30, 10))
+
+    for i in range(3):
+        plt.subplot(1, 3, i+1)
+        plt.imshow(images[i].numpy().astype('uint8'))
+        plt.title(f"True: {dataset.class_names[true_classes[i]]} | Predicted: {dataset.class_names[predicted_classes[i]]}")
+        plt.axis(False)
+
+    plt.show()
 
 
 def get_true_and_predicted_classes(model, dataset):
@@ -192,9 +205,6 @@ def evaluate_model(model, dataset):
         None
     """
     true_classes, predicted_classes = get_true_and_predicted_classes(model, dataset)
-    
-    clear_console()
-
     conf_matrix = get_confusion_matrix(true_classes, predicted_classes)
     recall = get_recall(true_classes, predicted_classes)
     f1 = get_f1_score(true_classes, predicted_classes)
@@ -204,3 +214,5 @@ def evaluate_model(model, dataset):
     plot_recall(recall, dataset)
     plot_f1_score(f1)
     plot_accuracy_and_loss(accuracy, loss)
+
+    plot_images_and_classes(true_classes, predicted_classes, dataset)
