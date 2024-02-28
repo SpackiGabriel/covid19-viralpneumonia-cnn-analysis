@@ -1,5 +1,7 @@
 # Final Project of LAMIA Bootcamp
 
+## [Full papper](https://docs.google.com/document/d/1kpPTVDAjWrieAr4SgBbsfxMRv_0nG4_D437U3KVlfaY/edit?usp=sharing)
+
 ## LAMIA
 
 LAMIA, located on the UTFPR campus in Santa Helena, is a research center dedicated to the application of Data Science and Computer Vision in the industry. It develops technology and academic knowledge for the sector, with a team of collaborators spread throughout the country.

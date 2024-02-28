@@ -26,6 +26,10 @@ The models' performance significantly declined when evaluated on real-world data
 
 - Continuously refining model performance on real-world data can adjust models to more specific situations.
 
+### Specific Preprocessing Techniques
+
+The study “Melhoria de Imagens de Raio X Para Detecção de Pneumonia por Covid-19” conducted by Aylla Christinne Feitosa Rodriges (IFGoiano) demonstrates that exists specific preprocessing techniques that can enhance disease characteristics. This paves the way for advancements in disease detection, providing sharper and more detailed images.
+
 ---
 
 In conclusion, improving the models' ability to generalize results to real-world data requires a combination of enhancing datasets, more advanced data augmentation techniques, and careful adjustments of hyperparameters. Additionally, collaboration and evaluation with medical and clinical experts are ideal to understand the nuances and specificities of X-ray images and the characteristics of each illness.

@@ -1,6 +1,7 @@
 # Projeto Final do Bootcamp do LAMIA
 
 ## [English Version](readme_en.md)
+## [Artigo Completo](https://docs.google.com/document/d/1kpPTVDAjWrieAr4SgBbsfxMRv_0nG4_D437U3KVlfaY/edit?usp=sharing)
 
 ## LAMIA
 

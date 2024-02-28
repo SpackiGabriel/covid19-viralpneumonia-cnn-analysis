@@ -27,6 +27,10 @@ Possíveis razões incluem variações nas condições de aquisição das imagen
 
 - Realizar um refinamento contínuo do desempenho dos modelos em dados do mundo real pode ajustar os modelos a situações mais específicas.
 
+### Técnicas de Pré-Processamento Específicas
+
+O estudo “Melhoria de Imagens de Raio X Para Detecção de Pneumonia por Covid-19” realizado por Aylla Christinne Feitosa Rodriges (IFGoiano) mostra que existem técnicas de pré-processamento específicas que podem realçar características das doenças. Isso abre caminho para avanços na detecção das enfermidades, proporcionando imagens mais nítidas e detalhadas.
+
 ---
 
-Em conclusão, melhorar a capacidade dos modelos de generalizalizar resultados para dados do mundo real exige uma combinação de aprimoramento dos conjuntos de dados, técnicas de aumento de dados mais avançadas e ajustes cuidadosos dos hiperparâmetros. Além disso, é ideal a colaboração e avaliação com especialistas médicos e clínicos para entender as nuances e especificidades das imagens de raio-x e as características a cada enfermidade.
+Em conclusão, melhorar a capacidade dos modelos de generalizalizar resultados para dados do mundo real exige uma combinação de aprimoramento dos conjuntos de dados, técnicas de aumento de dados mais avançadas e ajustes cuidadosos dos hiperparâmetros. Além disso, é ideal a colaboração e avaliação com especialistas médicos e clínicos para entender as nuances e especificidades das imagens de raio-x e as características a cada doença.
